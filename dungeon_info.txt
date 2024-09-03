@@ -5,21 +5,12 @@ Room Size: (5, 5)
 Room Type: entrance
 
 Room 1
-Room Size: (10, 10)
+Room Size: (15, 15)
 Room Type: monster
-Monsters: Harrow Hawk, Will-o'-Wells, Drowned Blade, Ogre Zombie, Ghoul, 
+Monsters: Hippogriff, Reduced-Threat Peryton, Purple Wormling, Crag Cat, Grick, 
 
 Room 2
-Room Size: (5, 5)
-Room Type: monster
-Monsters: Specter, Dread Warrior, Ogre Skeleton, Zombie, Gnoll Witherling, Yellow Musk Zombie, Ghoul, 
-
-Room 3
-Room Size: (15, 15)
-Room Type: shrine
-
-Room 31
-Room Size: (15, 15)
+Room Size: (10, 10)
 Room Type: trap
 Trap: Pit Trap
 A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
@@ -31,9 +22,9 @@ An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who 
 1d8 piercing damage
 Dexterity DC 15
 
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
 Dexterity DC 15
 
 Trap: Pit Trap
@@ -41,63 +32,21 @@ A pit trap is a large hole in the ground, usually covered by a thin layer of soi
 2d6 piercing damage
 Dexterity DC 15
 
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
-Trap: Pit Trap
-A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
-2d6 piercing damage
-Dexterity DC 15
-
-
-Room 32
-Room Size: (10, 10)
-Room Type: boss
-Boss: Ankylosaurus Zombie
-Minions: Undying Soldier, Minotaur Skeleton, 
-
-Room 33
-Room Size: (10, 10)
-Room Type: shrine
-
-Room 321
-Room Size: (10, 10)
-Room Type: vault
 
 Room 21
 Room Size: (10, 10)
-Room Type: trap
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
-Trap: Swinging Blade Trap
-A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
-2d10 slashing damage
-Dexterity DC 15
-
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
+Room Type: monster
+Monsters: Blood-Toll Harpy, Baaz Draconian, Gremishka, Draconian Mage, Zorbo, Aurumvorax, 
 
 Room 22
-Room Size: (15, 15)
-Room Type: trap
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
+Room Size: (10, 10)
+Room Type: boss
+Boss: Yeti Leader
+Minions: Mimic Chair, Mimic Chair, 
 
+Room 23
+Room Size: (10, 10)
+Room Type: trap
 Trap: Arrow Trap
 An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
 1d8 piercing damage
@@ -118,37 +67,27 @@ An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who 
 1d8 piercing damage
 Dexterity DC 15
 
+
+Room 221
+Room Size: (5, 5)
+Room Type: vault
 
 Room 11
-Room Size: (10, 10)
-Room Type: shop
+Room Size: (5, 5)
+Room Type: trap
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
+Trap: Arrow Trap
+An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
+1d8 piercing damage
+Dexterity DC 15
+
 
 Room 12
-Room Size: (10, 10)
-Room Type: trap
-Trap: Pit Trap
-A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
-2d6 piercing damage
-Dexterity DC 15
-
-Trap: Swinging Blade Trap
-A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
-2d10 slashing damage
-Dexterity DC 15
-
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
-Trap: Pit Trap
-A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
-2d6 piercing damage
-Dexterity DC 15
-
-
-Room 13
-Room Size: (15, 15)
+Room Size: (5, 5)
 Room Type: trap
 Trap: Pit Trap
 A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
@@ -158,25 +97,5 @@ Dexterity DC 15
 Trap: Arrow Trap
 An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
 1d8 piercing damage
-Dexterity DC 15
-
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
-Trap: Pit Trap
-A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
-2d6 piercing damage
-Dexterity DC 15
-
-Trap: Arrow Trap
-An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
-1d8 piercing damage
-Dexterity DC 15
-
-Trap: Swinging Blade Trap
-A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
-2d10 slashing damage
 Dexterity DC 15
 
