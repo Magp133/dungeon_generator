@@ -1,0 +1,35 @@
+{
+    "weights" : {
+        "0" : 0.5,
+        "1" : 0.25,
+        "2" : 0.25
+    },
+    "traps" : {
+        "0" : {
+            "name" : "Pit Trap",
+            "description" : "A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.",
+            "damage" : "2d6 piercing damage",
+            "save" : "Dexterity DC 15",
+            "disarm" : "Intelligence DC 15"
+        },
+        "1" : {
+            "name" : "Arrow Trap",
+            "description" : "An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.",
+            "damage" : "1d8 piercing damage",
+            "save" : "Dexterity DC 15",
+            "disarm" : "Intelligence DC 15"
+        },
+        "2" : {
+            "name" : "Swinging Blade Trap",
+            "description" : "A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.",
+            "damage" : "2d10 slashing damage",
+            "save" : "Dexterity DC 15",
+            "disarm" : "Intelligence DC 15"
+        }
+    },
+    "costs" : {
+        "0" : 1,
+        "1" : 1,
+        "2" : 1
+    }
+}
