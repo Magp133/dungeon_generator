@@ -10,7 +10,7 @@ class RoomMonsters():
         as well as the type of boss that oversees the dungeon. 
         """
 
-        self.boss_monster_type = boss_monster_type
+        self.boss_type = boss_monster_type
         self.difficulty = difficulty
 
         self.monster_list = self.generate_monsters()
@@ -25,18 +25,20 @@ class RoomMonsters():
         # 2. The monster must be within the difficulty range of the room.
 
         # Step 1: Read the CSV file into a pandas DataFrame
-        df = pd.read_csv('data/Bestiary.csv')
+        df_init = pd.read_csv('data/Bestiary.csv')
 
         # filter for the boss type
-        df = df[df['Type'].str.contains(self.boss_monster_type, na=False)]
+        df = df_init[df_init['Type'].str.contains(self.boss_type, na=False, regex=False)]
 
         # filter for the difficulty
         df = df[df['CR'] <= self.difficulty]
 
 
         if df.empty:
-            print("No monsters found.")
-            return None
+            boss_type = self.boss_type.split()[0]
+            df = df_init[df_init['Type'].str.contains(boss_type, na=False, regex=False)]
+            df = df[df['CR'] <= self.difficulty]
+
 
         # Step 3: Randomly select a monster from the filtered DataFrame.
         # 4 monsters of the self.difficulty level can be chosen. 
@@ -73,18 +75,19 @@ class RoomBoss():
 
 
         # Step 1: Read the CSV file into a pandas DataFrame
-        df = pd.read_csv('data/Bestiary.csv')
+        df_init = pd.read_csv('data/Bestiary.csv')
 
         # filter for the boss type
-        df = df[df['Type'].str.contains(self.boss_type, na=False)]
+        df = df_init[df_init['Type'].str.contains(self.boss_type, na=False, regex=False)]
 
         # filter for the difficulty
-        df = df[df['CR'] == self.difficulty]
+        df = df[df['CR'] <= self.difficulty]
 
 
         if df.empty:
-            print("No monsters found.")
-            return None
+            boss_type = self.boss_type.split()[0]
+            df = df_init[df_init['Type'].str.contains(boss_type, na=False, regex=False)]
+            df = df[df['CR'] <= self.difficulty]
 
         num_minions = random.randint(1, self.difficulty)
         minions = []
