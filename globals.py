@@ -35,6 +35,28 @@ ROOM_SIZES = {
     "GIGANTIC" : (25,25),  
 }
 
+MAGIC_ITEM_COST = {
+    "common" : 700,
+    "uncommon" : 1500,
+    "rare" : 4000,
+    "very rare" : 15000,
+    "legendary" : 50000,
+    "artifact" : 100000,
+    'unknown (magic)' : 0,
+    'varies' : 0
+}
+
+MAGIC_ITEM_RARITY = {
+    "common" : 0.5,
+    "uncommon" : 0.3,
+    "rare" : 0.15,
+    "very rare" : 0.05,
+    "legendary" : 0.01,
+    "artifact" : 0.001,
+    'unknown (magic)' : 0.1,
+    'varies' : 0.1
+}
+
 WINDOW_WIDTH = 640
 WINDOW_HEIGHT = 640
 CENTRE = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)

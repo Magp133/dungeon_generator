@@ -11,6 +11,9 @@ from .traps import *
 # monster stuff
 from .monsters import *
 
+# shop stuff
+from .shop import *
+
 class DungeonRoom:
     def __init__(self, size: tuple, neighbours: list, difficulty: int, type: str, boss) -> None:
         """
@@ -40,9 +43,6 @@ class DungeonRoom:
         self.room_map = self.generate_room()
         self.generate_features()
 
-        # features within the room
-        self.encounter = [] # Encounters in the room
-        self.items = [] # Items in the room
         
         
     def generate_exits(self, exit):
@@ -103,6 +103,8 @@ class DungeonRoom:
             self.monsters = self.generate_monsters()
         if self.type == "boss":
             self.boss = self.generate_boss()
+        if self.type == "shop":
+            self.shop = self.generate_shop()
 
     def generate_traps(self):
         """
@@ -175,6 +177,25 @@ class DungeonRoom:
             for minion in minions.minions:
                 file.write(f"{minion['Name'].values[0]}, ")
             file.write("\n")
+
+        return minions
+
+    def generate_shop(self):
+        """
+        Generates the items within the shop.
+        Includes the price of the items.
+        """
+        shop = RoomShop()
+
+        # add the info to the dungeon info file
+        with open('dungeon_info.txt', 'a') as file:
+            file.write(f"Shop Items: ")
+            for item in shop.items:
+                file.write(f"{item['Name']}: {item['Value']}, ")
+            file.write("\n")
+
+        return 
+
 
     def draw_room(self, screen):
         """
