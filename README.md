@@ -8,6 +8,7 @@ Monsters are generated within the monster room where the data is from the bestia
 # Example Generation.
 ## Graph generation.
 ![alt text](example_dungeon/dungeon_graph.png)
+
 This graph is first generated. Each node is assigned a room type from global variables. This is used when generating the room maps and information. Node generation is done by determining how many children each node should have. This is done by having a random integer chosen between 1 and the complexity of the dungeon. The depth determines when the iteration of the node generation finishes. 
 
 Once the graph hits the nodes at the max depth a boss room will attempt to spawn as the final node. If this is successful a vault room will be created immediately after the boss with only one connection to the boss. This marks the last step in generating the initial graph. 
