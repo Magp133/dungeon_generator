@@ -1,0 +1,48 @@
+Dungeon Info
+
+Room 0
+Room Size: (15, 15)
+Room Type: entrance
+
+Room 1
+Room Size: (5, 5)
+Room Type: shop
+Shop Items: Lance: 10 gp, Bombard: 50,000 gp, Sleep Grenade: nan, Turtle Ship: 40,000 gp, Trinket: nan, Chicken: 2 cp, Claw of the Wyrm Rune: 4000, Potion of Heroism: 4000, 
+
+Room 2
+Room Size: (5, 5)
+Room Type: monster
+Monsters: Rowboat Mimic, Draconian Foot Soldier, Tressym, Two-Headed Cerberus, Mimic Chair, Space Hamster, 
+
+Room 21
+Room Size: (10, 10)
+Room Type: monster
+Monsters: Merrow, Meazel, Skyjek Roc, Nyx-Fleece Ram, Young Griffon (Small), Blood-Toll Harpy, 
+
+Room 22
+Room Size: (10, 10)
+Room Type: monster
+Monsters: Ice Piercer, Young Griffon (Small), Ssurran Poisoner, Young Basilisk, Eldritch Horror Hatchling, Grick, 
+
+Room 11
+Room Size: (15, 15)
+Room Type: monster
+Monsters: Hippocamp, Skyjek Roc, Young Griffon (Tiny), Young Hook Horror, Griffon, Eblis, Young Basilisk, 
+
+Room 12
+Room Size: (15, 15)
+Room Type: boss
+Boss: Leucrotta
+Minions: Grick, 
+
+Room 13
+Room Size: (5, 5)
+Room Type: monster
+Monsters: Reduced-Threat Darkmantle, Aldani (Lobsterfolk), Thri-kreen Hunter, Griffon, Tressym, Rust Monster, Nyx-Fleece Ram, 
+
+Room 121
+Room Size: (5, 5)
+Room Type: vault
+Gold: {'copper': 67, 'silver': 354, 'gold': 29, 'platinum': 10}
+Gems: {'worth': 956, 'type': 'Amber'}
+Magic Items: ['Medallion of Thoughts' 1500]
