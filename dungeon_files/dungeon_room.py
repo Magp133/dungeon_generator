@@ -14,6 +14,9 @@ from .monsters import *
 # shop stuff
 from .shop import *
 
+# vault stuff
+from .vault import *
+
 class DungeonRoom:
     def __init__(self, size: tuple, neighbours: list, difficulty: int, type: str, boss) -> None:
         """
@@ -105,6 +108,8 @@ class DungeonRoom:
             self.boss = self.generate_boss()
         if self.type == "shop":
             self.shop = self.generate_shop()
+        if self.type == "vault":
+            self.vault = self.generate_vault()
 
     def generate_traps(self):
         """
@@ -194,8 +199,21 @@ class DungeonRoom:
                 file.write(f"{item['Name']}: {item['Value']}, ")
             file.write("\n")
 
-        return 
+        return shop
 
+    def generate_vault(self):
+        """
+        Generates the vault for the room.
+        """
+        vault = RoomVault(self.difficulty)
+
+        # add the info to the dungeon info file
+        with open('dungeon_info.txt', 'a') as file:
+            file.write(f"Gold: {vault.gold}\n")
+            file.write(f"Gems: {vault.gems}\n")
+            file.write(f"Magic Items: {vault.magic_items}\n")
+
+        return vault
 
     def draw_room(self, screen):
         """

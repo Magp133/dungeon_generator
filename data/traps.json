@@ -1,8 +1,10 @@
 {
     "weights" : {
-        "0" : 0.5,
-        "1" : 0.25,
-        "2" : 0.25
+        "0" : 3,
+        "1" : 3,
+        "2" : 2,
+        "3" : 1,
+        "4" : 1
     },
     "traps" : {
         "0" : {
@@ -25,11 +27,27 @@
             "damage" : "2d10 slashing damage",
             "save" : "Dexterity DC 15",
             "disarm" : "Intelligence DC 15"
+        },
+        "3" : {
+            "name" : "Fire Trap",
+            "description" : "A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.",
+            "damage" : "2d6 fire damage",
+            "save" : "Dexterity DC 15",
+            "disarm" : "Intelligence DC 15"
+        },
+        "4" : {
+            "name" : "Poison Gas Trap",
+            "description" : "A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.",
+            "damage" : "2d6 poison damage",
+            "save" : "Constitution DC 15",
+            "disarm" : "Intelligence DC 15"
         }
     },
     "costs" : {
         "0" : 1,
         "1" : 1,
-        "2" : 1
+        "2" : 1,
+        "3" : 1,
+        "4" : 1
     }
 }

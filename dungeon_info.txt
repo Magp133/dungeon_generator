@@ -1,43 +1,194 @@
 Dungeon Info
 
 Room 0
-Room Size: (10, 10)
+Room Size: (15, 15)
 Room Type: entrance
 
 Room 1
-Room Size: (15, 15)
+Room Size: (5, 5)
 Room Type: monster
-Monsters: Gibbering Mouther, Dolgrim, Gingwatzim, Derro, Flumph, Neogi Hatchling, 
+Monsters: Constructed Commoner, Replica Tridrone, Homunculus, Crystal Battleaxe, Homunculus, Demos Magen, Strixhaven Campus Guide, Swarm of Mechanical Spiders, Stone Giant Statue, Animated Armor, Stone Giant Statue, Demos Magen, 
 
 Room 2
-Room Size: (5, 5)
-Room Type: monster
-Monsters: Vampiric Ixitxachitl, Psurlon Ringer, Intellect Devourer, Cranium Rat Squeaker, Cranium Rat Squeaker, Ixitxachitl, Star Spawn Grue, Dolgrim, 
-
-Room 21
 Room Size: (10, 10)
-Room Type: shop
-Shop Items: Backpack Parachute: nan, Lute: 35 gp, Smith's Tools: 20 gp, Planar Philosopher Trinket: nan, Mace: 5 gp, Signal Whistle: 5 cp, Deck of Wonder: 1500, Piwafwi (Cloak of Elvenkind): 1500, 
+Room Type: trap
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
 
-Room 22
-Room Size: (15, 15)
-Room Type: monster
-Monsters: Dolgrim, Mind Flayer Nothic, Slaad Tadpole, Ixitxachitl Cleric, Gingwatzim, Gibbering Mouther, 
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
 
-Room 23
-Room Size: (15, 15)
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
+
+
+Room 3
+Room Size: (10, 10)
+Room Type: trap
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
+
+Trap: Fire Trap
+A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.
+2d6 fire damage
+Dexterity DC 15
+
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
+
+
+Room 31
+Room Size: (10, 10)
 Room Type: boss
-Boss: Skum
-Minions: Vampiric Ixitxachitl, 
+Boss: Helmed Horror
+Minions: Constructed Commoner, Animated Broom, 
 
-Room 231
+Room 32
+Room Size: (10, 10)
+Room Type: trap
+Trap: Pit Trap
+A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
+2d6 piercing damage
+Dexterity DC 15
+
+Trap: Fire Trap
+A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.
+2d6 fire damage
+Dexterity DC 15
+
+Trap: Pit Trap
+A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
+2d6 piercing damage
+Dexterity DC 15
+
+Trap: Arrow Trap
+An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
+1d8 piercing damage
+Dexterity DC 15
+
+
+Room 33
+Room Size: (15, 15)
+Room Type: trap
+Trap: Pit Trap
+A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
+2d6 piercing damage
+Dexterity DC 15
+
+Trap: Pit Trap
+A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
+2d6 piercing damage
+Dexterity DC 15
+
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
+
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
+
+Trap: Fire Trap
+A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.
+2d6 fire damage
+Dexterity DC 15
+
+
+Room 311
 Room Size: (5, 5)
 Room Type: vault
+Gold: {'copper': 485, 'silver': 992, 'gold': 42, 'platinum': 9}
+Gems: {'worth': 825, 'type': 'Sardonyx'}
+Magic Items: ['Pixie Dust' 1500]
+
+Room 21
+Room Size: (15, 15)
+Room Type: trap
+Trap: Fire Trap
+A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.
+2d6 fire damage
+Dexterity DC 15
+
+Trap: Fire Trap
+A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.
+2d6 fire damage
+Dexterity DC 15
+
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
+
+Room 22
+Room Size: (10, 10)
+Room Type: trap
+Trap: Pit Trap
+A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
+2d6 piercing damage
+Dexterity DC 15
+
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
+
+Trap: Pit Trap
+A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
+2d6 piercing damage
+Dexterity DC 15
+
+Trap: Arrow Trap
+An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
+1d8 piercing damage
+Dexterity DC 15
+
 
 Room 11
 Room Size: (5, 5)
-Room Type: monster
-Monsters: Vampiric Ixitxachitl, Nothic, Ixitxachitl, Gnome Squidling, Ixitxachitl, Neogi Hatchling, 
+Room Type: trap
+Trap: Arrow Trap
+An arrow trap is a hidden mechanism that fires a volley of arrows at anyone who triggers it. The arrows are usually poisoned or coated with some other harmful substance.
+1d8 piercing damage
+Dexterity DC 15
+
+Trap: Swinging Blade Trap
+A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.
+2d10 slashing damage
+Dexterity DC 15
+
 
 Room 12
 Room Size: (15, 15)
@@ -47,15 +198,15 @@ A swinging blade trap is a large blade that swings down from the ceiling or up f
 2d10 slashing damage
 Dexterity DC 15
 
-Trap: Pit Trap
-A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
-2d6 piercing damage
+Trap: Fire Trap
+A fire trap is a hidden mechanism that releases a burst of flame when triggered. The flames are usually magical in nature and can burn for several rounds before extinguishing themselves.
+2d6 fire damage
 Dexterity DC 15
 
-Trap: Pit Trap
-A pit trap is a large hole in the ground, usually covered by a thin layer of soil, leaves, or other debris. The pit is typically 10 to 20 feet deep and lined with sharp spikes or other dangerous objects. When a creature steps on the covering, it collapses, sending the creature plummeting into the pit.
-2d6 piercing damage
-Dexterity DC 15
+Trap: Poison Gas Trap
+A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
+2d6 poison damage
+Constitution DC 15
 
 Trap: Swinging Blade Trap
 A swinging blade trap is a large blade that swings down from the ceiling or up from the floor when triggered. The blade is usually razor-sharp and can cut through flesh and bone with ease.

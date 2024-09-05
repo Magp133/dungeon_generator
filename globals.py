@@ -57,6 +57,50 @@ MAGIC_ITEM_RARITY = {
     'varies' : 0.1
 }
 
+GEM_TYPES = [
+    "Azurite",
+    "Banded Agate",
+    "Blue Quartz",
+    "Eye Agate",
+    "Hematite",
+    "Lapis Lazuli",
+    "Malachite",
+    "Moss Agate",
+    "Obsidian",
+    "Rhodochrosite",
+    "Tiger Eye",
+    "Turquoise",
+    "Bloodstone",
+    "Carnelian",
+    "Chalcedony",
+    "Chrysoprase",
+    "Citrine",
+    "Jasper",
+    "Moonstone",
+    "Onyx",
+    "Quartz",
+    "Sardonyx",
+    "Star Rose Quartz",
+    "Zircon",
+    "Amber",
+    "Amethyst",
+    "Chrysoberyl",
+    "Coral",
+    "Garnet",
+    "Jade",
+    "Jet",
+    "Pearl",
+    "Spinel",
+    "Tourmaline",
+    "Black Pearl",
+    "Golden Pearl",
+    "Pink Pearl",
+    "Silver Pearl",
+    "Red Spinel",
+    "Diamond"
+]
+
+
 WINDOW_WIDTH = 640
 WINDOW_HEIGHT = 640
 CENTRE = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
