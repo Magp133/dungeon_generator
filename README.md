@@ -38,7 +38,20 @@ If the room is a trap it will look like the following:
 
 If the room type is 'trap' then the traps will be generated and placed within the room. Trap locations are determined by the entrance, exits and the center of the room. They are placed within a random spread around these locations to give variability and reduce predictibility. These wont be shown to the players and are a reference for the game master to use. 
 
-If the room is not a 'trap' then it is one of the others. Information of these (and for the traps) is logged into the dungeon_info.txt file.
+Room types have a chance to appear. This is shown by the following dict used in the globals.  
+GENERAL_ROOM_TYPES = {
+    "monster" : 0.3,
+    "trap" : 0.3,
+    "shop" : 0.2,
+    "shrine" : 0.1
+}  
+Boss and vault are not there as they are special rooms which must be added at the end. 
+Extra rooms can be added but their functionality would also need to be added into the generate_features of the DungeonRoom. This shouldn't be difficult to do. A new class of room would be created and the details would be placed in there to return the required information to log into the dungeon log.
+
+The entrances and exits between the rooms are placed randomly around the edges of the room without overlapping each other. The corridors between the rooms are not considered. I planned on having these dungeons act more like a roguelite game where the entraces/ exits are directly connected to one another. If feedback from this during playtesting changes then I will update this.
+
+## Dungeon Logs.
+The information within the dungeon is recorded into a text file representing each room and the contents within it. For the full log look into the example dungeon folder and read the file there. 
 
 For monsters:
 
@@ -100,3 +113,12 @@ For vaults:
 For shrines:
 Shrines do not have any information as they are a custom thing I am adding for my own games. This will be updated later but isn't important for the actual dungeon as the goal was traps, monsters and treasure.
 
+
+## Dungeon Data
+As mentioned breifly at the start the monster information is from this site: https://5e.tools/bestiary.html#aarakocra_mm where I downloaded the entire database as a csv and filtered the columns. The CR (challenge rating) had to be converted into an int and the Type had to be cleaned as there were issues comparing it to strings.  
+
+There was an issue with monsters not getting chosen for the dungeon. This was due to how some monster types and how boss generation works. Boss generation takes the dungeon difficulty and adds a random integer between 1 and 3 to it. It will then filter the monster database for a monsters with that CR and choose one. This defines the type of monsters that are allowed to be generated as mentioned before with type.  
+
+The issue with this is that some monster types do not have many low CR monsters. Additionally the types are sometimes in the form of the following *Humanoid (Kobold)*. They have a subtype within their core type. These types as a whole may not meet the CR requirments either. To get around this if the monster db is empty after filtering and sampling the conditions are relaxed and only considers the core type which would be *Humanoid* in the previous example. 
+
+If an error occurs due to this then it probably attempted to make a boss a dragon (one of the low CR ones) which doesn't have any low CR monsters. Though with the settings it had for this example dungeon it might just be in range for one or two of the lowest. Run it again and it should generate a fully functional dungeon.
