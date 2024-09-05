@@ -40,13 +40,15 @@ If the room type is 'trap' then the traps will be generated and placed within th
 
 If the room is not a 'trap' then it is one of the others. Information of these (and for the traps) is logged into the dungeon_info.txt file.
 For monsters:
-'Room 1
+
+*Room 1
 Room Size: (5, 5)
 Room Type: monster
-Monsters: Constructed Commoner, Replica Tridrone, Homunculus, Crystal Battleaxe, Homunculus, Demos Magen, Strixhaven Campus Guide, Swarm of Mechanical Spiders, Stone Giant Statue, Animated Armor, Stone Giant Statue, Demos Magen,'
+Monsters: Constructed Commoner, Replica Tridrone, Homunculus, Crystal Battleaxe, Homunculus, Demos Magen, Strixhaven Campus Guide, Swarm of Mechanical Spiders, Stone Giant Statue, Animated Armor, Stone Giant Statue, Demos Magen,*
 
 For traps:
-'Room 2
+
+*Room 2
 Room Size: (10, 10)
 Room Type: trap
 Trap: Swinging Blade Trap
@@ -67,31 +69,34 @@ Dexterity DC 15
 Trap: Poison Gas Trap
 A poison gas trap is a hidden mechanism that releases a cloud of poisonous gas when triggered. The gas is usually colorless and odorless, making it difficult to detect until it is too late.
 2d6 poison damage
-Constitution DC 15'
+Constitution DC 15*
 
 For shops:
+
 (this is from another dungeon. This example one didn't generate a shop)
-'
+*
 Room 1
 Room Size: (5, 5)
 Room Type: shop
-Shop Items: Lance: 10 gp, Bombard: 50,000 gp, Sleep Grenade: nan, Turtle Ship: 40,000 gp, Trinket: nan, Chicken: 2 cp, Claw of the Wyrm Rune: 4000, Potion of Heroism: 4000,'
+Shop Items: Lance: 10 gp, Bombard: 50,000 gp, Sleep Grenade: nan, Turtle Ship: 40,000 gp, Trinket: nan, Chicken: 2 cp, Claw of the Wyrm Rune: 4000, Potion of Heroism: 4000,*
 
 For bosses:
-'
+
+*
 Room 31
 Room Size: (10, 10)
 Room Type: boss
 Boss: Helmed Horror
-Minions: Constructed Commoner, Animated Broom,'
+Minions: Constructed Commoner, Animated Broom,*
 
 For vaults:
-'
+
+*
 Room Size: (5, 5)
 Room Type: vault
 Gold: {'copper': 485, 'silver': 992, 'gold': 42, 'platinum': 9}
 Gems: {'worth': 825, 'type': 'Sardonyx'}
-Magic Items: ['Pixie Dust' 1500]'
+Magic Items: ['Pixie Dust' 1500]*
 
 For shrines:
 Shrines do not have any information as they are a custom thing I am adding for my own games. This will be updated later but isn't important for the actual dungeon as the goal was traps, monsters and treasure.
