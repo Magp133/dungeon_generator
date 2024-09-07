@@ -1,4 +1,10 @@
 """
+Created by: Evan Richards-Ward
+Date: 7/9/2024
+"""
+
+
+"""
 Defines the class for the dungeon.
 Defines the class for the dungeon room.
 Will include encounters, items and traps which can be rolled from the event handler.

@@ -1,3 +1,9 @@
+"""
+Created by: Evan Richards-Ward
+Date: 7/9/2024
+"""
+
+
 from pprint import pprint
 import random
 import numpy as np
